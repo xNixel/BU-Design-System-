@@ -1,0 +1,51 @@
+/* Custom Prism.js theme for HTML syntax highlighting */
+code[class*="language-html"],
+pre[class*="language-html"] {
+    background: none;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
+
+.token.comment {
+    color: black;
+}
+
+.token.tag {
+    color: #0098ca;
+}
+
+.token.punctuation {
+    color: initial;
+    opacity: 0.9;
+}
+
+/* TODO(patrick): Separate the color of the " " to the < > */
+
+.token.attr-name {
+    color: #FF6510;
+}
+
+.token.attr-value,
+.token.string,
+.language-css .token.string,
+.style .token.string {
+    color: #0abe40;
+}
+
+.token.keyword {
+    color: #66d9ef;
+}
+
+.token.doctype {
+    color: black;
+    background: none;
+}
